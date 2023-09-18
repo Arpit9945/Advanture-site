@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    background: url(mountain\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+#space {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-main {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#links {
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.first {
+    color: rgb(255, 0, 76) !important;
+}
+
+.last {
+    background-color: rgb(255, 0, 76);
+    padding: 10px;
+    border-radius: 16px;
+    transition: 0.6s;
+}
+
+
+.last:hover {
+    background-color: white;
+    padding: 10px;
+    color: rgb(255, 0, 76) !important;
+    border-radius: 16px;
+}
+
+.para {
+    height: 90vh;
+    width: 95vw;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    color: white;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-weight: bolder;
+}
+
+.line span {
+    border-bottom: 4px solid rgb(255, 0, 98);
+}
+
+.bigger {
+    font-size: 60px;
+    color: white;
+    letter-spacing: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.butn {
+    height: 2em;
+    width: 7em;
+    background-color: rgb(255, 0, 98);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bolder;
+    transition: 0.6s ease-in-out;
+}
+
+
+.butn:hover {
+    background-color: white;
+    color: rgb(255, 0, 98);
+}
+
+
+
+.describer {
+    height: 110vh;
+    width: 100vw;
+    /* background-color: lightblue; */
+
+}
+
+.centerrr {
+    font-size: xx-large;
+    color: black;
+}
+
+.centerrr {
+    text-align: center;
+}
+
+.describer p span {
+    border-bottom: 4px solid rgb(255, 0, 98);
+}
+
+#pic1 {
+    height: 18em;
+    width: 75rem;
+}
+
+.text-cent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightcoral; */
+    height: auto;
+    width: 30vw;
+}
+
+.t-edit1 {
+    font-size: xx-large;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.explorer {
+    height: 100vh;
+    width: 100vw;
+    background: url(top\ of\ mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.all-text {
+    color: white;
+    position: absolute;
+    padding: 80px;
+    padding-top: 200px;
+}
+
+.big-text {
+    font-size: xx-large;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.all-text p span {
+    border-bottom: 4px solid rgb(255, 0, 98);
+}
+
+.all-imgs {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.highr {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.highr span {
+    border-bottom: 4px solid rgb(255, 0, 98);
+
+}
+
+#trvlimg {
+    height: 13em;
+    width: 13em;
+}
+
+#trvlimg:hover {
+    transform: scale(1.2);
+    transition: 0.7s ease-in-out;
+}
+
+.imgs4 {
+    display: grid;
+    grid-template-columns: 230px 230px;
+    row-gap: 20px;
+}
+
+.img1 {
+    background: url(climb\ 1.jpg);
+    background-size: cover;
+}
+
+.img2 {
+    background: url(climb\ 2.jpg);
+    background-size: cover;
+}
+
+.img3 {
+    background: url(climb\ 3.jpg);
+    background-size: cover;
+}
+
+.img4 {
+    background: url(climb\ 4.jpg);
+    background-size: cover;
+
+}
+
+footer{
+    background-color: rgb(71, 21, 112);
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 996px) {
+    .line {
+        font-size: medium;
+    }
+
+    span {
+        border-bottom: 1px solid rgb(255, 0, 98);
+    }
+
+    .bigger {
+        font-size: 40px;
+        color: white;
+        letter-spacing: 0px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    #pic1 {
+        height: 8em;
+        width: 45rem;
+        border-radius: 8px;
+    }
+
+    .t-edit1 {
+        font-size: x-large;
+    }
+
+}
+
+@media screen and (max-width: 350) {
+    .line {
+        font-size: small;
+    }
+
+    .t-edit1 {
+        font-size: xx-small;
+    }
+}
+
+
+@media screen and (max-width: 500) {
+
+    #trvlimg {
+        height: 7em !important;
+        width: 7em !important;
+    }
+
+}
